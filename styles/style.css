@@ -11,4 +11,10 @@
 .hero h1{
     color: azure;
     font-size: 100px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 60px;
+    font-family: cursive;
+    word-spacing: 40px;
+    letter-spacing: 20px;
 }
