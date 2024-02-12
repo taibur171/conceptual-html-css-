@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: "Lato", sans-serif;
 }
 .hero{
     background-image: url(../images/cow.jpg);
@@ -17,4 +19,33 @@
     font-family: cursive;
     word-spacing: 40px;
     letter-spacing: 20px;
+}
+.article{
+    text-align: justify;
+    width: 80%;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px; */
+    margin: 60px auto;
+    background-color: rgba(18, 238, 238, 0.678);
+    padding: 60px;
+    border-width: 15px;
+    border-color: yellow;
+    border-style: groove;
+}
+.article h2{
+    text-align: center; 
+    font-size: 48px;
+    border-color: yellow;
+    border-style: groove;
+    border-width: 2px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+.article p{
+    font-size: 28px;
 }
