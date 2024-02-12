@@ -48,4 +48,11 @@
 }
 .article p{
     font-size: 28px;
+    line-height: 2em;
+}
+.article p .imp{
+    font-size: 2rem;
+    /* display: inline-block;
+    width: 600px; */
+    background-color: yellow;
 }
